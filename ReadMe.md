@@ -27,7 +27,7 @@ Công cụ này chuyển đổi cấu trúc dữ liệu dạng cây từ corpus 
 #### 1.2 - Công cụ Chia dữ liệu
 Công cụ: [split_data](split_data.ipynb)
 Công cụ này chia tập dữ liệu đã tiền xử lý thành ba tập con phục vụ các mục đích khác nhau: train, dev, và test. Quy trình chia dữ liệu được thực hiện như sau:
-1.  **Tạo tập Train:** Chọn N câu (ví dụ: 500 câu) để sử dụng làm dữ liệu huấn luyện cho mô hình gán nhãn tự động.
+1.  **Tạo tập Train:** Chọn N câu (ví dụ: 100 câu) để sử dụng làm dữ liệu huấn luyện cho mô hình gán nhãn tự động.
 2.  **Tạo tập Dev:** Chuẩn bị dữ liệu cho các annotator thực hiện gán nhãn thủ công ban đầu.
 3.  **Tạo tập Test:** Tạo tập dữ liệu độc lập để đánh giá kết quả gán nhãn thủ công và/hoặc hiệu suất của mô hình tự động.
 4.  Mỗi tập (train, dev, test) có thể được chia nhỏ thành các bộ (batch) dữ liệu để dễ quản lý và phân công cho annotator.
